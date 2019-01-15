@@ -32,7 +32,7 @@ df = DplyFrame(df)
 
 plot = ( 
 df >> 
-ggplot(X._, aes('x', y = 'y')) +
+ggplot(X._, aes('x', 'y')) +
 geom_point(aes(color = 'z')) +
 theme(
     text = element_text(fontproperties = font),
