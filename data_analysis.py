@@ -22,6 +22,7 @@ font = fm.FontProperties(fname=fpath)
 
 df = pd.DataFrame({'x': [i for i in range(100)], 'y': [i ** 2 for i in range(100)]})
 df['z'] = ['one' if x % 2 == 0 else 'two' for x in df['x']]
+df['facet_group'] = ['Group 1' if x % 5 == 0 else 'Group 2' for x in df['x']]
 
 # --- Manipulate Data --- {{{1
 
@@ -31,9 +32,10 @@ df['z'] = ['one' if x % 2 == 0 else 'two' for x in df['x']]
 df = DplyFrame(df)
 
 plot = ( 
-df >> 
-ggplot(X._, aes('x', 'y')) +
+df >>
+ggplot(X._, aes('x','y')) +
 geom_point(aes(color = 'z')) +
+facet_grid('~facet_group') +
 theme(
     text = element_text(fontproperties = font),
     strip_text = element_text(ha = 'center', va = 'center')    
