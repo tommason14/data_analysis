@@ -2,7 +2,7 @@
  font-family: SF Mono;
  font-weight: normal;
  font-style: normal;
- src: local('SF Mono'), url('fonts/fira.ttf') format('truetype');
+ src: local('SF Mono'), format('truetype');
 }
 div#notebook {
  font-family: sans-serif;
@@ -463,28 +463,28 @@ div#notebook {
  background-color: #ffffff;
  min-height: 0px;
  box-shadow: none;
- width: 980px;
+ width: 1100px;
  margin-right: auto;
  margin-left: auto;
 }
 div#ipython-main-app.container {
- width: 980px;
+ width: 1100px;
  margin-right: auto;
  margin-left: auto;
  margin-right: auto;
  margin-left: auto;
 }
 .container {
- width: 980px;
+ width: 1100px;
  margin-right: auto;
  margin-left: auto;
 }
 div#menubar-container {
  width: 100%;
- width: 980px;
+ width: 1100px;
 }
 div#header-container {
- width: 980px;
+ width: 1100px;
 }
 .notebook_app #header,
 .edit_app #header {
@@ -1699,7 +1699,7 @@ div.output_subarea.output_text {
  color: #303030;
  border-top-right-radius: 0px;
  border-top-left-radius: 0px;
- margin-left: 11.5px;
+ /* margin: 0 11.5px; */
 }
 
 div.output_area pre {
@@ -1715,7 +1715,7 @@ div.output_area {
 }
 div.output_html {
  font-family: SF Mono, monospace, monospace;
- font-size: 8.5pt;
+ font-size: 12pt;
  color: #353535;
  background-color: #ffffff;
  background: #ffffff;
@@ -1739,6 +1739,7 @@ div.btn.btn-default.output_collapsed:hover {
  border-color: #d2d2d2;
 }
 div.prompt.output_prompt {
+ display: none;
  font-family: SF Mono, monospace, monospace;
  font-weight: bold !important;
  background-color: #ffffff;
@@ -1759,8 +1760,10 @@ div.out_prompt_overlay.prompt {
  border-top-right-radius: 0px;
  border-top-left-radius: 0px;
  border-bottom-right-radius: 0px;
- min-width: 11.5ex !important;
- width: 11.5ex !important;
+ /* min-width: 11.5ex !important; */
+ /* width: 11.5ex !important; */
+ min-width: 1ex !important;
+ width: 1ex !important;
  border-right: 2px solid transparent;
  color: transparent;
 }
@@ -2082,7 +2085,8 @@ div#_vivaldi-spatnav-focus-indicator._vivaldi-spatnav-focus-indicator {
 .rendered_html tr,
 .rendered_html th,
 .rendered_html td {
- text-align: left;
+ font-family: "SF Mono";
+ text-align: center !important;
  vertical-align: middle;
  padding: 0.42em 0.47em;
  line-height: normal;
@@ -2091,11 +2095,24 @@ div#_vivaldi-spatnav-focus-indicator._vivaldi-spatnav-focus-indicator {
  border: none;
 }
 .rendered_html td {
- font-family: sans-serif !important;
- font-size: 9.3pt;
+ font-size: 12pt;
+ min-width: 50px;
+ 
 }
+
+.rendered_html th {
+    color: #055be0;
+}
+
+.dataframe thead th {
+    text-align: center !important;
+}
+
+.dataframe thead tr {
+    text-align: center;
+}
+
 .rendered_html table {
- font-family: sans-serif !important;
  margin-left: 8px;
  margin-right: auto;
  border: none;
@@ -2105,8 +2122,7 @@ div#_vivaldi-spatnav-focus-indicator._vivaldi-spatnav-focus-indicator {
  table-layout: fixed;
 }
 .rendered_html thead {
- font-family: sans-serif !important;
- font-size: 10.3pt !important;
+ font-size: 12pt;
  background: #ebebeb;
  color: #353535;
  border-bottom: 1px solid #ebebeb;
@@ -3270,7 +3286,6 @@ img {
     width: 120%;
     height: 120%;
 }
-
 
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
