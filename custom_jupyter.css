@@ -3282,6 +3282,11 @@ span.save_widget span.filename:hover {
  background-color: #ffffff;
 }
 
+option.introspection {
+ font-family: "SF Mono";
+ font-size: 12px;
+}
+
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
         "HTML-CSS": {
