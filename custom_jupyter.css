@@ -5,7 +5,7 @@
  src: local('SF Mono'), format('truetype');
 }
 div#notebook {
- font-family: sans-serif;
+ font-family: SF Mono;
  font-size: 13pt;
  line-height: 170%;
  color: #303030;
@@ -14,7 +14,7 @@ div#notebook {
 }
 body,
 div.body {
- font-family: sans-serif;
+ font-family: SF Mono;
  font-size: 13pt;
  color: #303030;
  background-color: #ffffff;
@@ -29,7 +29,7 @@ body.notebook_app {
  overflow-y: hidden;
 }
 a {
- font-family: sans-serif;
+ font-family: SF Mono;
  color: #303030;
  -webkit-font-smoothing: antialiased !important;
 }
@@ -192,13 +192,13 @@ span#sort-name.btn.btn-xs.btn-default.sort-action:hover .fa {
  font-size: 18px;
 }
 div#notebook_toolbar div.dynamic-instructions {
- font-family: sans-serif;
+ font-family: SF Mono;
  font-size: 17px;
  color: #828892;
 }
 span#login_widget > .button,
 #logout {
- font-family: "Proxima Nova", sans-serif;
+ font-family: "Proxima Nova", SF Mono;
  color: #303030;
  background: transparent;
  background-color: transparent;
@@ -383,14 +383,14 @@ div.list_item:hover {
  margin-top: -2px;
 }
 ul#tabs a {
- font-family: sans-serif;
+ font-family: SF Mono;
  font-size: 13.5px;
  font-weight: normal;
  font-style: normal;
  text-shadow: none !important;
 }
 .nav-tabs {
- font-family: sans-serif;
+ font-family: SF Mono;
  font-size: 13.5pt;
  font-weight: normal;
  font-style: normal;
@@ -451,7 +451,7 @@ ul#tabs a {
  -webkit-font-smoothing: subpixel-antialiased !important;
 }
 div#notebook {
- font-family: sans-serif;
+ font-family: SF Mono;
  font-size: 13pt;
  padding-top: 4px;
 }
@@ -494,7 +494,7 @@ div#header-container {
 }
 #header,
 .edit_app #header {
- font-family: sans-serif;
+ font-family: SF Mono;
  font-size: 13pt;
  box-shadow: none;
  background-color: #ffffff;
@@ -536,7 +536,7 @@ p.navbar-text.indicator_area {
  color: #ff7823;
 }
 .navbar-default {
- font-family: sans-serif;
+ font-family: SF Mono;
  font-size: 13px;
  background-color: #ffffff;
  border-color: #d4d4d4;
@@ -544,7 +544,7 @@ p.navbar-text.indicator_area {
  padding-bottom: 0px;
 }
 .navbar-default .navbar-nav > li > a {
- font-family: sans-serif;
+ font-family: SF Mono;
  font-size: 13px;
  color: #303030;
  display: block;
@@ -659,13 +659,13 @@ div.notification_widget.info,
 .item_buttons .running-indicator {
  padding-top: 4px;
  color: #009e07;
- font-family: sans-serif;
+ font-family: SF Mono;
  text-rendering: auto;
  -webkit-font-smoothing: antialiased;
 }
 #notification_trusted {
  display: none;
- font-family: sans-serif;
+ font-family: SF Mono;
  border: none;
  background: transparent;
  background-color: transparent;
@@ -814,13 +814,13 @@ i.fa.fa-icon {
 }
 .fa {
  display: inline-block;
- font: normal normal normal 10pt/1 "FontAwesome", sans-serif;
+ font: normal normal normal 10pt/1 "FontAwesome", SF Mono;
  text-rendering: auto;
  -webkit-font-smoothing: antialiased;
  -moz-osx-font-smoothing: grayscale;
 }
 .dropdown-menu {
- font-family: sans-serif;
+ font-family: SF Mono;
  font-size: 13pt;
  box-shadow: none;
  padding: 0px;
@@ -831,7 +831,7 @@ i.fa.fa-icon {
  line-height: 1;
 }
 .dropdown-menu:hover {
- font-family: sans-serif;
+ font-family: SF Mono;
  font-size: 13pt;
  box-shadow: none;
  padding: 0px;
@@ -842,7 +842,7 @@ i.fa.fa-icon {
  line-height: 1;
 }
 .dropdown-menu > li > a {
- font-family: sans-serif;
+ font-family: SF Mono;
  font-size: 12.0px;
  display: block;
  padding: 10px 20px 9px 10px;
@@ -876,7 +876,7 @@ i.fa.fa-icon {
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
- font-family: sans-serif;
+ font-family: SF Mono;
  font-size: 12.0px;
  font-weight: normal;
  color: #828892;
@@ -906,7 +906,7 @@ div.kse-dropdown > .dropdown-menu,
 }
 .btn,
 .btn-default {
- font-family: sans-serif;
+ font-family: SF Mono;
  color: #303030;
  background: #e5e5e5;
  background-color: #e5e5e5;
@@ -1113,7 +1113,7 @@ div.dynamic-buttons > button,
  z-index: 2;
 }
 .dropdown-header {
- font-family: sans-serif !important;
+ font-family: SF Mono !important;
  font-size: 13px;
  color: #ff7823 !important;
  border-bottom: none !important;
@@ -1123,7 +1123,7 @@ div.dynamic-buttons > button,
 span#last-modified.btn.btn-xs.btn-default.sort-action,
 span#sort-name.btn.btn-xs.btn-default.sort-action,
 span#file-size.btn.btn-xs.btn-default.sort-action {
- font-family: sans-serif;
+ font-family: SF Mono;
  font-size: 13px;
  background-color: transparent;
  background: transparent;
@@ -1138,7 +1138,7 @@ span#last-modified.btn.btn-xs.btn-default.sort-action {
 }
 button.close {
  border: 0px none;
- font-family: sans-serif;
+ font-family: SF Mono;
  font-size: 12px;
  font-weight: normal;
 }
@@ -1257,7 +1257,7 @@ div.modal-footer > button:hover {
  transition: 200ms ease;
 }
 .modal-content {
- font-family: sans-serif;
+ font-family: SF Mono;
  font-size: 12.0px;
  position: relative;
  background: #e4e4e4;
@@ -1268,7 +1268,7 @@ div.modal-footer > button:hover {
  outline: none;
 }
 .modal-header {
- font-family: sans-serif;
+ font-family: SF Mono;
  font-size: 13pt;
  color: #303030;
  background: #e4e4e4;
@@ -1278,7 +1278,7 @@ div.modal-footer > button:hover {
  min-height: 16.4286px;
 }
 .modal-content h4 {
- font-family: sans-serif;
+ font-family: SF Mono;
  font-size: 16pt;
  color: #303030;
  padding: 5px;
@@ -1312,7 +1312,7 @@ div.panel,
 div.panel-default,
 .panel,
 .panel-default {
- font-family: sans-serif;
+ font-family: SF Mono;
  font-size: 13px;
  background-color: #f4f4f4;
  color: #303030;
@@ -1340,7 +1340,7 @@ div.container-fluid {
 }
 div.form-control,
 .form-control {
- font-family: sans-serif;
+ font-family: SF Mono;
  font-size: initial;
  color: #303030;
  background-color: #ffffff;
@@ -1799,8 +1799,8 @@ div.cell.selected .out_prompt_overlay.prompt {
 div.text_cell,
 div.text_cell_render pre,
 div.text_cell_render {
- font-family: sans-serif;
- font-size: 13px;
+ font-family: SF Mono;
+ font-size: 9px;
  line-height: 130% !important;
  color: #353535;
  background: #ffffff;
@@ -1830,28 +1830,28 @@ div.cell.text_cell .CodeMirror pre {
  line-height: 170% !important;
 }
 div.cell.text_cell.rendered.selected {
- font-family: sans-serif;
+ font-family: SF Mono;
  line-height: 170% !important;
  background: #ffffff;
  background-color: #ffffff;
  border-radius: 0px;
 }
 div.cell.text_cell.unrendered.selected {
- font-family: sans-serif;
+ font-family: SF Mono;
  line-height: 170% !important;
  background: #ffffff;
  background-color: #ffffff;
  border-radius: 0px;
 }
 div.cell.text_cell.selected {
- font-family: sans-serif;
+ font-family: SF Mono;
  line-height: 170% !important;
  background: #ffffff;
  background-color: #ffffff;
  border-radius: 0px;
 }
 .edit_mode div.cell.text_cell.selected {
- font-family: sans-serif;
+ font-family: SF Mono;
  line-height: 170% !important;
  background: #ffffff;
  background-color: #ffffff;
@@ -1860,7 +1860,7 @@ div.cell.text_cell.selected {
 div.text_cell.unrendered,
 div.text_cell.unrendered.selected,
 div.edit_mode div.text_cell.unrendered {
- font-family: sans-serif;
+ font-family: SF Mono;
  line-height: 170% !important;
  background: #ffffff;
  background-color: #ffffff;
@@ -1912,7 +1912,7 @@ div.text_cell.rendered.selected .prompt {
 }
 div.rendered_html code {
  font-family: SF Mono, monospace, monospace;
- font-size: 14px;
+ font-size: 9px;
  padding-top: 3px;
  padding-left: 2px;
  color: #303030;
@@ -1928,7 +1928,7 @@ samp {
 .well code,
 code {
  font-family: SF Mono, monospace, monospace;
- font-size: 14px;
+ font-size: 9px;
  line-height: 170% !important;
  color: #353535;
  background: #efefef;
@@ -1937,7 +1937,7 @@ code {
 }
 kbd {
  padding: 1px;
- font-size: 14px;
+ font-size: 9px;
  font-weight: 800;
  color: #303030;
  background-color: transparent !important;
@@ -1948,7 +1948,7 @@ pre {
  display: block;
  padding: 8.5px;
  margin: 0 0 9px;
- font-size: 14.0px;
+ font-size: 9px;
  line-height: 1.42857143;
  color: #303030;
  background-color: #efefef;
@@ -1968,7 +1968,7 @@ div.rendered_html {
 }
 div.rendered_html pre {
  font-family: SF Mono, monospace, monospace;
- font-size: 12px !important;
+ font-size: 9px !important;
  line-height: 170% !important;
  color: #353535 !important;
  background: #efefef;
@@ -1984,7 +1984,7 @@ div.rendered_html pre {
 div.text_cell_render pre,
 div.text_cell_render code {
  font-family: SF Mono, monospace, monospace;
- font-size: 14pt !important;
+ font-size: 9pt !important;
  line-height: 170% !important;
  color: #353535;
  background: #ffffff;
@@ -2010,7 +2010,7 @@ div.text_cell_render h4,
 div.rendered_html h4,
 div.text_cell_render h5,
 div.rendered_html h5 {
- font-family: sans-serif;
+ font-family: SF Mono;
  margin: 0.4em .2em .3em .2em !important;
 }
 .rendered_html h1:first-child,
@@ -2149,7 +2149,7 @@ div.widget-area {
  color: #303030;
 }
 div.widget-area a {
- font-family: sans-serif;
+ font-family: SF Mono;
  font-size: 12.0px;
  font-weight: normal;
  font-style: normal;
@@ -2158,7 +2158,7 @@ div.widget-area a {
 }
 div.widget-area a:hover,
 div.widget-area a:focus {
- font-family: sans-serif;
+ font-family: SF Mono;
  font-size: 12.0px;
  font-weight: normal;
  font-style: normal;
@@ -2230,7 +2230,7 @@ div.widget-label {
  margin-left: 12px;
 }
 .rendered_html :link {
- font-family: sans-serif;
+ font-family: SF Mono;
  font-size: 100%;
  color: #ff7823;
  text-decoration: underline;
@@ -2242,7 +2242,7 @@ div.widget-label {
 }
 .rendered_html :visited:hover,
 .rendered_html :link:hover {
- font-family: sans-serif;
+ font-family: SF Mono;
  font-size: 100%;
  color: #f96000;
 }
@@ -2272,7 +2272,7 @@ div.cell.text_cell a.anchor-link:link:hover {
  cursor: auto;
 }
 #nbextensions-configurator-container > div.row.container-fluid.nbext-selector > h3 {
- font-size: 17px;
+ font-size: 10px;
  margin-top: 5px;
  margin-bottom: 8px;
  height: 24px;
@@ -2285,7 +2285,7 @@ div#nbextensions-configurator-container.container,
  margin-left: auto;
 }
 div.nbext-selector > nav > .nav > li > a {
- font-family: sans-serif;
+ font-family: SF Mono;
  font-size: 10.5px;
  padding: 2px 5px;
 }
@@ -2311,7 +2311,7 @@ div.nbext-selector > nav > .nav > li.active:hover {
  -webkit-font-smoothing: subpixel-antialiased !important;
 }
 div.nbext-readme > .nbext-readme-contents > .rendered_html {
- font-family: sans-serif;
+ font-family: SF Mono;
  font-size: 11.5pt;
  line-height: 145%;
  padding: 1em 1em;
@@ -2559,7 +2559,7 @@ div.collapsible_headings_toggle .fa-caret-right:before {
 #navigate_menu a,
 .toc {
  color: #303030 !important;
- font-size: 14pt !important;
+ font-size: 10pt !important;
 }
 #toc li > span:hover {
  background-color: #d4d4d4 !important;
@@ -2568,15 +2568,15 @@ div.collapsible_headings_toggle .fa-caret-right:before {
 #navigate_menu a:hover,
 .toc {
  color: #1c1c1c !important;
- font-size: 14pt !important;
+ font-size: 10pt !important;
 }
 #toc-wrapper .toc-item-num {
  color: #ff7823 !important;
- font-size: 14pt !important;
+ font-size: 10pt !important;
 }
 input.raw_input {
  font-family: SF Mono, monospace, monospace;
- font-size: 14pt !important;
+ font-size: 10pt !important;
  color: #303030;
  background-color: #efefef;
  border-color: #ececec;
@@ -2610,10 +2610,10 @@ video {
  z-index: 1;
 }
 .typeahead-field input {
- font-family: sans-serif;
+ font-family: SF Mono;
  color: #303030;
  border: none;
- font-size: 28pt;
+ font-size: 14pt;
  display: inline-block;
  line-height: inherit;
  padding: 3px 10px;
@@ -2628,8 +2628,8 @@ body > div.modal.cmd-palette.typeahead-field {
  background-color: #f4f4f4;
 }
 .typeahead-container button {
- font-family: sans-serif;
- font-size: 28pt;
+ font-family: SF Mono;
+ font-size: 14pt;
  background-color: #e4e4e4;
  border: none;
  display: inline-block;
@@ -2663,7 +2663,7 @@ body > div.modal.cmd-palette.typeahead-field {
 }
 .typeahead-dropdown,
 .typeahead-list {
- font-family: sans-serif;
+ font-family: SF Mono;
  font-size: 13px;
  color: #303030;
  background-color: #ffffff;
@@ -2990,7 +2990,7 @@ div.js-error {
 }
 .ipython_tooltip {
  font-family: SF Mono, monospace, monospace;
- font-size: 14pt;
+ font-size: 10pt;
  line-height: 170%;
  border: 2px solid #dadada;
  background: #eeeeee;
@@ -3004,7 +3004,7 @@ div.js-error {
 }
 .ipython_tooltip .tooltiptext pre {
  font-family: SF Mono, monospace, monospace;
- font-size: 14pt;
+ font-size: 10pt;
  line-height: 170%;
  background: #eeeeee;
  background-color: #eeeeee;
@@ -3280,11 +3280,6 @@ span.save_widget span.filename:hover {
 #menubar {
  padding-top: 4px;
  background-color: #ffffff;
-}
-
-option.introspection {
- font-family: "SF Mono";
- font-size: 12px;
 }
 
 <script type="text/x-mathjax-config">
